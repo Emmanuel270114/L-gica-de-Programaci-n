@@ -1,0 +1,49 @@
+<meta charset="UTF-8">
+
+<h1>CLASE 5 LOGICA DE PROGRAMACIÓN "FUNCIONES"</h1>
+
+<script>
+//Creamos la funcion para hacer saltos de línea
+function saltarlinea(){
+    document.write("<br><br><br>");
+}
+
+saltarlinea();
+
+document.write("Hola Mundo");
+
+saltarlinea();
+
+document.write("Hola Mundo");
+
+document.write("<br><br>//////////////////////////////////////////////////////////////////////<br><br>");
+
+document.write("<h1>Funciones con Parámetros</h1>")
+//Creamos la función imprimir
+function imprimir(frase){
+    document.write(frase);
+    saltarlinea();
+}
+
+var anio = 2025;
+
+    saltarlinea();
+    imprimir("Hola amigos");
+    //Este código ayuda a calcular las edades de los usuarios
+    imprimir("Juan tiene: " + (anio-2002) + " años");
+    imprimir("Pedro tiene: " + (anio-1997) + " años");
+
+    anio = 2030;
+
+    document.write("Carlos tiene: " + (anio-2007) +" años");
+
+    document.write("<br><br>//////////////////////////////////////////////////////////////////////<br><br>");
+
+    document.write("<h1>Diferencia de Edad (Práctica)</h1>");
+
+    var edadmia = 22;
+    var edadbro = 20;
+    var diferencia = edadmia-edadbro;
+    imprimir("Nuestra diferencia de edad es: " + diferencia);
+
+</script>
